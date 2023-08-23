@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+
+
+
+    <TextView
+        android:id="@+id/popup_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inputdata"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:gravity="center" />
+
+
+    <EditText
+        android:id="@+id/popup_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="16dp"
+        android:layout_below="@id/popup_title"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <Button
+        android:id="@+id/popup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submitButton"
+        android:textSize="18sp"
+        android:layout_below="@id/popup_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
